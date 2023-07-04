@@ -1,0 +1,139 @@
+:root {
+    --blue1: rgb(89, 165, 241);
+    --blue2: #14497e;
+    --blue3: #e1f0ff;
+    --blue4: #142d7e;
+    --blue5: #dae3ff;
+    --grey: #f1f1f1fc;
+    --orange1: #d27f20;
+    --orange2: #b56c19;
+    --orange3: #f5c691;
+    --orange4: #7a4810;
+    --orange5: #f9dcbb;
+    --orange6: #9e5f17;
+    --orange7: #ffd6a7;
+    --orange8: #fa992b;
+    --orange9: #ffc88a;
+}
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+body {
+    margin: 0;
+}
+
+#dropdown_bar {
+    width: 100%;
+    padding: 1.3vh 0;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    top: 0;
+    text-align: center;
+}
+
+.drop_btn {
+    color: var(--blue1);
+    padding: 0 2vw;
+    font-size: 1.5vw;
+}
+
+.drop_btn:hover {
+    color: var(--blue2);
+}
+
+@media screen and (min-width: 1101px) {
+    #mobile_menu {
+        display: none;
+    }
+
+    #open_mobile_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #dropdown_bar {
+        display: none;
+        box-shadow: none;
+    }
+    
+    #open_mobile_menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 35px;
+        color: white;
+        cursor: pointer;
+        background-color: var(--blue2);
+        padding: 8px 18px 18px 8px;
+        border-bottom-right-radius: 50px;
+        transition: 0.3s ease;
+        z-index: 1;
+        box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+    }
+
+    #open_mobile_menu:hover {
+        background-color: var(--blue1);
+    }
+
+    #mobile_menu {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: var(--blue3);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+        z-index: 2;
+    }
+    
+    #mobile_menu a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 40px;
+        color: var(--blue1);
+        display: block;
+        transition: 0.3s;
+        font-weight: bold;
+    }
+    
+    #mobile_menu a:hover{
+        color: var(--blue2);
+    }
+      
+    #closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 50px !important;
+        margin-left: 50px;
+        font-weight: bold;
+    }      
+}
+
+@media screen and (max-width: 700px) {
+    #mobile_menu a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #mobile_menu a {
+        font-size: 25px;
+    }
+}

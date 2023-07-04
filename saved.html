@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <link rel="icon" type="image/x-icon" href="/Desktop_Photos/favicon.jpg">
+        <title>Dr. Wish Craniosacral Therapy</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+        <script src="load_contstant_items.js"></script>
+        <script>
+            $(function(){
+                if ($(window).width() > 900) {
+                    $("#water").load("water1_horizontal.html");
+                }
+                else {
+                    $("#water").load("water1_vertical.html");
+                }
+
+                if ($(window).width() <= 600) {
+                    text = 'Dr. Ron Wish is the best group leader I have ever known. He has an amazing ability to create nets of safety while gently and kindly nudging participants to look into the mirror of their own perceptions—which melts open limiting stuck points the person never knew existed. It is a unique kind of Craniosacral Therapy/ Somato-Emotional Release work that is only effective because Ron is always willing to be vulnerable as he seeks personal growth for himself.<br><p>- Mary Beth White, MS, NP, APHN-BC, HWNC-BC</p>'
+                    document.getElementById("change_quote_to_favorite").innerHTML = text;
+                    sacred_journey = document.getElementById("sacred_journey")
+                    sacred_journey.innerHTML += '<br><h5>Click Photos to learn more about<br>the GRCTI experience</h5>'
+                }
+
+                if ($(window).width() > 500) {
+                    which_folder = 'Desktop_Photos/';
+                }
+                else {
+                    which_folder = 'Mobile_Photos/';
+                }
+                document.getElementById("intro_pic").src = which_folder + 'intro_pic.jpeg';
+                document.getElementById("pic2").src = which_folder + 'craniophotos-2-2.jpg';
+                document.getElementById("pic3").src = which_folder + 'craniophotos-14.jpg';
+                document.getElementById("pic4").src = which_folder + 'craniophotos-15.jpg';
+                document.getElementById("pic5").src = which_folder + 'craniophotos-20.jpg';
+                document.getElementById("pic6").src = which_folder + 'craniophotos-10.jpg';
+                document.getElementById("pic7").src = which_folder + 'craniophotos-9.jpg';
+                document.getElementById("pic8").src = which_folder + 'craniophotos-08.jpg';
+                document.getElementById("pic9").src = which_folder + 'craniophotos-01.jpg';
+                document.getElementById("pic10").src = which_folder + 'craniophotos-5.jpg';
+                document.getElementById("pic11").src = which_folder + 'craniophotos-07.jpg';
+                document.getElementById("pic12").src = which_folder + 'craniophotos-05.jpg';
+                document.getElementById("pic13").src = which_folder + 'craniophotos-1-2.jpg';
+                document.getElementById("pic14").src = which_folder + 'craniophotos-04.jpg';
+                document.getElementById("pic15").src = which_folder + 'craniophotos-4.jpg';
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div id="header"></div>
+
+        <div id="first_section">
+            <div id="intro_div">
+                <div id="logo_holder">
+                    Great River<br>
+                    Craniosacral<br>
+                    Therapy Institute
+                </div>
+                <img id="intro_pic" alt="The Hudson River">
+            </div>
+                <h1> Discover the Healing Miracle Within Yourself</h1>
+            <div id="intro_quote">
+                "The descent was so gentle I am not really sure when or how we reached the place of transformation together.
+                 I feel deeply seen, exuberant, and soft, a new way of being. The work is profoundly complex and yet so 
+                 incredibly simple. You are generous with your wisdom and your humanity. Thank you again. This is an exhilarating 
+                 journey." - <em>C. Scott, GRCTI Graduate</em>
+            </div>
+        </div>
+
+        <h1 id="training_h1">Our Upcoming Training Sessions</h1>
+        <table style="margin-top: 20px" cellspacing="0">
+            <tr>
+                <td class="img_holder">
+                    <img id="pic2" class="training_pic"/>
+                </td>
+                <td class="text_holder">
+                    <div class="training_explanation">
+                        <h2>Three-Day Introductory Craniosacral Therapy Training</h2>
+                    </div>
+                    <div class="training_explanation">
+                        <p>Oct, 2023 9:30 AM - 5:00 PM each day, days pending</p>
+                    </div>
+                    <div class="training_explanation detail_btn">
+                        <a href="basic_training_information.html">Details</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="0">
+            <tr>
+                <td class="text_holder">
+                    <div class="training_explanation">
+                        <h2>Three-Day Introductory Craniosacral Therapy Training</h2>
+                    </div>
+                    <div class="training_explanation">
+                        <p>Nov, 2023 9:30 AM - 5:00 PM each day, days pending</p>
+                    </div>
+                    <div class="training_explanation detail_btn">
+                        <a href="basic_training_information.html">Details</a>
+                    </div>
+                </td>
+                <td class="img_holder">
+                    <img id="pic3" class="training_pic"/>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="0">
+            <tr>
+                <td class="img_holder">
+                    <img id="pic4" class="training_pic"/>
+                </td>
+                <td class="text_holder">
+                    <div class="training_explanation">
+                        <h2>Advanced Craniosacral Therapy Training</h2>
+                    </div>
+                    <div class="training_explanation">
+                        <p>4 Three-day Weekends, Dates Pending 2023-2024</p>
+                    </div>
+                    <div class="training_explanation detail_btn">
+                        <a href="advanced_training_information.html">Details</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <div id="third_section">
+            <h1 id="sacred_journey">It's more than a training...<br>It's a sacred journey</h1>
+            <div class="row"> 
+                <div class="column" id="col1">
+                    <div class="container">
+                        <img id="pic5" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1.3vw">
+                                My CST training started when I met Ron and received a treatment from him. 
+                                The gentleness, depth and speed with which he explored my body, mind, and soul formed the 
+                                basis for the work I do today with both horses and humans. I've used CST to help hundreds 
+                                of traumatized horses. Once I worked on a mare who, we were told, had had a stroke after surgery. 
+                                She was standing with a heavy head, listing forward and to the left. I didn't dare work on her front end, so I
+                                went to her tail and sacrum. By the time I finished she was standing normally, bright
+                                eyed and able to eat her hay. She's been fine ever since. This work can truly be magical.
+                                <br>
+                                <p>- Kate Kennedy, Healer, Animal Telepath</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic6" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1.4vw">
+                                During the CST training, the true voice of my body was heard.
+                                This awakening is guiding me deeper and deeper into humanity's mysteries.
+                                <br>
+                                <p>- Camelia Agapescu, Reiki Practitioner</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic7" class="image last_col1">
+                        <div class="overlay last_col1">
+                            <div class="quotes" style="font-size: 1vw">
+                                I just completed the Advanced Training in Craniosacral Therapy with Dr Wish at the Great River
+                                Craniosacral Therapy Institute. Dr Wish is a kind, intuitive healer and a thorough, expert teacher. The
+                                training was really practical, and I learned so much about how to use this wonderful healing modality
+                                to help people. By receiving lots of Craniosacral Therapy during the training I developed a deep
+                                internal sense of how Craniosacral Therapy works. With these gifts I'm sure I can open
+                                a successful healing practice.
+                                <br>
+                                <p>- Kristen Kerwin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" id="col2">
+                    <div class="container">
+                        <img id="pic8" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1vw">
+                                Dr. Ron Wish is the best group leader I have ever known. 
+                                He has an amazing ability to create nets of safety while gently and kindly nudging participants 
+                                to look into the mirror of their own perceptions—which melts open limiting stuck points the person never knew existed. 
+                                It's a unique kind of Craniosacral Therapy/ Somato-Emotional Release work that is only effective because 
+                                Ron is always willing to be vulnerable as he seeks personal growth for himself.
+                                <br>
+                                <p>- Mary Beth White, MS, NP, APHN-BC, HWNC-BC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container" style="background-color: var(--blue2); padding: 0; margin: 0">
+                        <h2 id="hover_to_learn">
+                            Hover over the photos to learn more about the GRCTI experience
+                        </h2>
+                    </div>
+                    <div class="container">
+                        <img id="pic9" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1vw">
+                                Ten years after completing the training program in Nyack, craniosacral therapy is still 
+                                the healing modality I prefer to receive and the foundation of my work as massage therapist 
+                                and clinical social worker. My experiences at GRCTI were surprising, simple and profound, and 
+                                I carry this knowing in my body, like a song. It is extremely rewarding every time the tools 
+                                I gained through this training show up with the clients I listen to and touch. The results 
+                                speak for themselves-in the tears, laughter and deep relaxing breaths of the many folks 
+                                I've worked on over the years.
+                                <br>
+                                <p>- Anne Zager, LMT, LCSW</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic10" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1.1vw">
+                                Ron Wish's Craniosacral training transformed my personal and professional life! His gentle, 
+                                focused, and persistent encouragement gave me the courage to express my deepest self in my 
+                                relationships and work. I learned how to help my clients release trauma in a gentle, loving, 
+                                graceful dance. I am now helping my clients to live more fully in their bodies and express their truth.
+                                <br>
+                                <p>- Joy Matalon LMT</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic11" class="image last_col2">
+                        <div class="overlay last_col2">
+                            <div class="quotes" style="font-size: 0.9vw;">
+                                My first treatment with Ron changed my life. It opened me to a whole new world of possibilities, 
+                                and I had to learn more. CST training has helped me integrate my logical medical background as a 
+                                physician's assistant with my intuitive and creative family legacy as a traditional curandera. 
+                                Through my CST healing and training I not only live my life more authentically, but I can more 
+                                fully hold open my heart space for other people's healing journeys. I totally recommend this 
+                                training for medical practitioners and healers of all kinds-- to heal themselves and to better 
+                                serve their patients on physical, emotional, mental and spiritual levels. I am deeply grateful 
+                                to Ron for being an amazing teacher and practitioner who truly walks the talk.
+                                <br>
+                                <p>- Ines Calderon, PA-C, Curandera</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" id="col3">
+                    <div class="container">
+                        <img id="pic12" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1.2vw">
+                                My first treatment with Ron changed my life. It opened me to a whole new world of possibilities, 
+                                and I had to learn more. CST training has helped me integrate my logical medical background as a 
+                                physician's assistant with my intuitive and creative family legacy as a traditional curandera. 
+                                Through my CST healing and training I not only live my life more authentically, but I can more 
+                                fully hold open my heart space for other people's healing journeys. I totally recommend this 
+                                training for medical practitioners and healers of all kinds-- to heal themselves and to better 
+                                serve their patients on physical, emotional, mental and spiritual levels. I am deeply grateful 
+                                to Ron for being an amazing teacher and practitioner who truly walks the talk.
+                                <br>
+                                <p>- Ines Calderon, PA-C, Curandera</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic13" class="image">
+                        <div class="overlay">
+                            <div id="change_quote_to_favorite" class="quotes" style="font-size: 1vw">
+                                Working closely with like-minded people in a safe environment allowed for profound inner 
+                                processes to unfold and personal healing to occur. With Ron's tremendous gift of holding space, 
+                                I was able to go deep within myself to face parts of me that I couldn't on my own. 
+                                This has changed me and empowered me. I came in wishing to learn the craft of Craniosacral Therapy, 
+                                but what I left with was much, much more than that. I left having a stronger sense of who I am 
+                                and a new ability to be more open to the world around me, others, and myself.
+                                <br>
+                                <p>- Abi Keene, Bodyworker, Energy Healer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic14" class="image">
+                        <div class="overlay">
+                            <div class="quotes" style="font-size: 1vw">
+                                "The craniosacral training with Ron was a major pivot point for my life personally, professionally, and spiritually. 
+                                I made lifelong friends and gained a beloved community.  I received and learned to facilitate healing sessions that 
+                                seismically shifted old wounds. I gained access to my innate gifts both on and off the table through hands-on techniques, 
+                                ritual, dialogue, group processing, and a deep sense of magic and wonder. I was guided back again and again to my 
+                                intuition as I learned to trust my inner physician."
+                                <br>
+                                <p>- Anne Zager, LMT, LCSW</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <img id="pic15" class="image last_col3">
+                        <div class="overlay last_col3">
+                            <div class="quotes" style="font-size: 1vw">
+                                Dr. Ron Wish is the best group leader I have ever known. He has an amazing ability to create nets of safety while 
+                                gently and kindly nudging participants to look into the mirror of their own perceptions—which melts open limiting 
+                                stuck points the person never knew existed. It's a unique kind of Craniosacral Therapy/ Somato-Emotional Release 
+                                work that is only effective because Ron is always willing to be vulnerable as he seeks personal growth for himself.
+                                <br>
+                                <p>- Mary Beth White, MS, NP, APHN-BC, HWNC-BC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="water_explanation">
+            <div id="words">
+                <div>
+                    <h1>The Movement of Water -- The Essence of Our Practice</h1>
+                    <hr id="split_3-4">
+                    <p>
+                        Ever since moving to the Hudson Valley in 1987, the great Hudson River has been a source of
+                        inspiration and spiritual sustenance for me. Its waters are always moving, always changing,
+                        whether calm or stormy, white capped or ice encrusted. They remind me of a pearl of wisdom
+                        shared with me by Xerxes, a wise orthopedics resident, early in my family medicine training. He
+                        was a Zoroastrian-- an ancient religion originating in Persia, whose devotees believe that
+                        everything created is pure and should be treated with respect, including our natural world. In
+                        teaching me how to do an orthopedic evaluation on a patient, he said,
+                        <br><strong>“remember Ron, where there's movement there's life.”</strong><br>
+                        No statement better reflects the essence of Craniosacral Therapy. At the GRCTI we continually
+                        refine our abilities to listen to and follow the wavelike motion of the cerebrospinal fluid as it
+                        reverberates throughout the body. We learn to help melt and relieve obstructions to this flow.
+                        We support people of all backgrounds as we move through pain and trauma, and we celebrate
+                        together in the joy and laughter that are our birthrights. Come join us!
+                    </p>
+                </div>
+            </div>
+
+            <div id="water_container" style="box-shadow: none; padding-top: 0; background: none">
+                <div id="water"></div>
+            </div>
+        </div>
+
+        <div id="bottom_quote">
+            <h1>Sensing the wave motion of the craniosacral rhythm is true entry into the ultimate flow state.</h1>
+        </div>
+
+        <div id="footer"></div>
+    </body>
+</html>

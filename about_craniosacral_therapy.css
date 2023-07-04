@@ -1,0 +1,105 @@
+#overall_info {
+    width: 80vw;
+    text-align: center;
+    padding-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(var(--blue3) 80%, white 80%);
+}
+
+#overall_info h1 {
+    color: var(--orange1);
+}
+
+#overall_info img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+#whole_section {
+    width: 75vw;
+    margin: 12vh auto 0 auto;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    overflow: hidden;
+    padding-top: 0;
+}
+
+.section {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h1_holder {
+    cursor: pointer;
+    padding: 0.1vh 0;
+}
+
+.h1_holder:hover h1 {
+    color: darkgrey;
+}
+
+.h1_holder h1 {
+    color: white;
+    transition: 0.5s;
+}
+
+.p_holder p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.6vw;
+}
+
+.p_holder {
+    padding: 3vh 0;
+}
+
+h1 i {
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 1300px) {
+    #overall_info h1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #overall_info {
+        width: 100%;
+        padding-top: 30px;
+    }
+    
+    #whole_section {
+        width: 90%;
+    }
+
+    .p_holder p {
+        width: 85%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #whole_section {
+        width: 95%;
+    }
+
+    .p_holder p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    #overall_info {
+        padding-top: 50px;
+    }
+
+    #overall_info img {
+        width: 100%;
+    }
+}

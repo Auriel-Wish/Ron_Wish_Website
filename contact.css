@@ -1,0 +1,65 @@
+#whole_section {
+    padding-top: 10vh;
+}
+
+/* #map {
+    height: 40vh;
+    width: 40vw;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+} */
+
+#whole_section p {
+    font-size: 1.6vw;
+}
+
+a {
+    color: var(--orange1);
+}
+
+@media screen and (min-width: 1101px) {
+    #whole_section {
+        height: 60vh;
+    }
+
+    #information {
+        margin-left: 5vw;
+        float: left;
+    }
+    
+    /* #map {
+        margin-right: 5vw;
+        float: right;
+    } */
+}
+
+@media screen and (max-width: 1100px) {
+    /* #map {
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    #whole_section p {
+        font-size: 20px;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    /* #map {
+        width: 90%;
+        height: 300px;
+    } */
+}
+
+@media screen and (max-width: 600px) {
+    #whole_section {
+        padding-top: 5vh;
+    }
+    
+    /* #map {
+        height: 230px;
+    } */
+}

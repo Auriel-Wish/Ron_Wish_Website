@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="contact.css">
+
+        <link rel="icon" type="image/x-icon" href="/Desktop_Photos/favicon.jpg">
+        <title>Contact Information</title>
+        <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="load_contstant_items.js"></script>
+        <script>
+            $(function(){
+                if ($(window).width() > 900) {
+                    $("#water").load("water1_horizontal.html");
+                }
+                else {
+                    $("#water").load("water2_vertical.html");
+                }
+            });
+        </script>
+        <script src="contact.js"></script>
+    </head>
+    
+    <body>
+        <div id="header"></div>
+        
+        <div id="whole_section">
+            <h1 style="text-align: center">Contact Information</h1>
+            <div id="information">
+                <p>Ron Wish, M.D.</p>
+                <p>112 Highmount Avenue Nyack, New York 10960</p>
+                <p><a href="tel:845-358-4815">845-358-4815</a></p>
+                <p><a href="mailto:riw6556@gmail.com">riw6556@gmail.com</a></p>
+                <p>Contact Dr. Wish for Craniosacral Therapy appointments or regarding Craniosacral Therapy and Somatoemotional Release training programs.</p>
+            </div>
+            
+            <!-- <div id="map"></div> -->
+        </div>
+        
+        <div id="water_container">
+            <div id="water"></div>
+        </div>
+
+        <div id="bottom_quote">
+            <h1>Sensing the wave motion of the craniosacral rhythm is true entry into the ultimate flow state.</h1>
+        </div>
+
+        <div id="footer"></div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDSS7Udrcx4UYMYb6NLyUGlJm2OHY5aaco&callback=initMap&v=weekly" defer></script>
+    </body>
+
+</html>

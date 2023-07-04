@@ -1,0 +1,236 @@
+#overall_info {
+    width: 80vw;
+    text-align: center;
+    padding-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(var(--blue3) 80%, white 80%);
+}
+
+#overall_info h1 {
+    color: var(--orange1);
+    text-align: center;
+}
+
+#in_depth_info p {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4vw;
+    width: 100%;
+}
+
+#overall_info p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#in_depth_info li {
+    font-size: 1.4vw;
+}
+
+#overall_info img {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+#in_depth_info {
+    width: 65vw;
+    text-align: center;
+    margin: 0 auto 10vh auto;
+}
+
+#in_depth_info h2 {
+    margin-top: 5vh;
+    color: var(--orange1);
+    font-size: 1.8vw;
+    line-height: 4vh;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+#in_depth_info h2:hover {
+    color: var(--orange2);
+}
+
+#in_depth_info h2 i {
+    transition: 0.5s ease;
+}
+
+#in_depth_info h3 {
+    color: var(--blue2);
+    font-size: 1.6vw;
+}
+
+.in_depth_info_splitter {
+    border: none;
+    margin: -1vh auto 0 auto;
+    padding: 1px;
+    background-color: black;
+}
+
+#first_list_basic {
+    width: 56%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#first_list_advanced {
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#second_list_advanced {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#extra_readings {
+    width: 55%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#extra_movies {
+    width: 55%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+    #overall_info h1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    
+    #overall_info p {
+        font-size: 20px;
+    }
+
+    #in_depth_info p {
+        font-size: 20px;
+    }
+    
+    #in_depth_info li {
+        font-size: 20px;
+    }
+    
+    #overall_info img {
+        width: 70%;
+    }
+    
+    #in_depth_info h2 {
+        font-size: 30px;
+    }
+    
+    #in_depth_info h3 {
+        font-size: 25px;
+    }
+
+    #extra_readings {
+        width: 60%;
+    }
+    
+    #extra_movies {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #overall_info {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #overall_info p {
+        width: 80%;
+    }
+
+    #extra_readings {
+        width: 70%;
+    }
+    
+    #extra_movies {
+        width: 70%;
+    }
+
+    #first_list_basic {
+        width: 70%;
+    }
+    
+    #first_list_advanced {
+        width: 72%;
+    }
+    
+    #second_list_advanced {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #in_depth_info {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #extra_readings {
+        width: 90%;
+    }
+    
+    #extra_movies {
+        width: 90%;
+    }
+
+    #first_list_basic {
+        width: 80%;
+    }
+    
+    #first_list_advanced {
+        width: 85%;
+    }
+    
+    #second_list_advanced {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #in_depth_info {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    #overall_info {
+        padding-top: 50px;
+    }
+
+    #overall_info img {
+        width: 100%;
+    }
+
+    #extra_readings {
+        width: 95%;
+    }
+    
+    #extra_movies {
+        width: 95%;
+    }
+
+    #first_list_basic {
+        width: 95%;
+    }
+    
+    #first_list_advanced {
+        width: 95%;
+    }
+    
+    #second_list_advanced {
+        width: 85%;
+    }
+}
